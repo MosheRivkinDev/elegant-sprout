@@ -1,47 +1,44 @@
-# Astro Starter Kit: Minimal
+# 🌱 Elegant Sprout
 
-```sh
-npm create astro@latest -- --template minimal
+![License](https://img.shields.io/github/license/your-username/elegant-sprout?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-badge)
+![Astro](https://img.shields.io/badge/Astro-%23FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Hebrew Support](https://img.shields.io/badge/Hebrew-Support-%2334A853?style=for-the-badge)
+
+A clean and elegant portfolio site built using **Astro** and **TailwindCSS**, with full support for **Hebrew** and right-to-left (RTL) layouts.
+
+![Elegant Sprout Demo](./screenshots/demo.png)
+
+## ✨ Features
+
+- 💡 Minimalistic and clean design
+- 📱 Fully responsive layout
+- ⚡ Fast loading with Astro's optimization
+- 🎨 Easily customizable with TailwindCSS
+- 🇮🇱 **Built-in Hebrew and RTL support**
+
+## 🚀 Tech Stack
+
+- **Astro** - A modern static site generator
+- **TailwindCSS** - Utility-first CSS framework
+
+## 📸 Screenshots
+
+Here’s a sneak peek of the **Elegant Sprout** portfolio:
+
+### Desktop View
+
+![Desktop View](./screenshots/desktop-view.png)
+
+### Mobile View
+
+![Mobile View](./screenshots/mobile-view.png)
+
+## ⚙️ Installation
+
+**Clone the repository**:
+
+```bash
+git clone https://github.com/MosheRivkinDev/elegant-sprout.git
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
