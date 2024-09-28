@@ -18,7 +18,15 @@ A clean and elegant portfolio site built using **Astro** and **TailwindCSS**, wi
 - 🎨 Easily customizable with TailwindCSS
 - 🇮🇱 **Built-in Hebrew and RTL support**
 
-## 🚀 Tech Stack
+## 🚀 Live Demo
+
+<p align="center">
+  <a href="https://elegant-sprout.static.domains" target="_blank" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Demo-Elegant--Sprout-%231DA1F2?style=for-the-badge&logo=demo&logoColor=white" alt="Elegant Sprout Demo">
+  </a>
+</p>
+
+## ⚙️ Tech Stack
 
 - **Astro** - A modern static site generator
 - **TailwindCSS** - Utility-first CSS framework
