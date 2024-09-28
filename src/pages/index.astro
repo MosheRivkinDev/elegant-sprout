@@ -1,0 +1,49 @@
+---
+import "@fontsource-variable/rubik";
+import "@/app.css";
+import { config } from "@/config";
+import LinkButton from "@/components/link-button.astro";
+import Devider from "@/components/devider.astro";
+import Logo from "@/components/logo.astro";
+import LinkIcon from "@/components/link-icon.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{config.title}</title>
+  </head>
+  <body class="flex w-screen h-screen lg:items-center justify-center">
+    <div class="absolute top-10 left-10">
+      <Logo text={config.logo} />
+    </div>
+    <header class="w-10/12 max-w-2xl text-center items-center flex flex-col gap-5 mt-40 lg:mt-0">
+      <div class="flex flex-col gap-3">
+        <h1 class="lg:text-6xl text-4xl font-extrabold text-zinc-700 text-pretty">{config.header.h1}</h1>
+        <h2 class="lg:text-3xl text-2xl font-medium text-zinc-500">{config.header.h2}</h2>
+        <p class="text-sm font-medium text-zinc-700">{config.header.description}</p>
+      </div>
+      <Devider />
+      <div class="flex gap-8 justify-center w-full">
+        <LinkButton href={`mailto:${config.contact.email}`} text={`דוא"ל`} />
+        <LinkButton href={`tel:${config.contact.email}`} text={`טלפון`} />
+      </div>
+    </header>
+    <div class="right-10 flex-col sm:flex-row bottom-10 absolute text-zinc-800/70 sm:text-zinc-800 flex gap-2 items-start">
+      <LinkIcon href={`https://youtube.com/${config.contact.youtube}`}>
+        <Icon name="youtube" class="size-10" href={config.contact.youtube} />
+      </LinkIcon>
+      <LinkIcon href={`https://x.com/${config.contact.twitter}`}>
+        <Icon name="twitter" class="size-10" href={config.contact.twitter} />
+      </LinkIcon>
+      <LinkIcon href={`https://facebook.com/${config.contact.facebook}`}>
+        <Icon name="facebook" class="size-10" />
+      </LinkIcon>
+    </div>
+    <img src="/plant.png" alt="plant" class="absolute bottom-0 left-0 w-[50vw] max-w-[350px]" />
+  </body>
+</html>
